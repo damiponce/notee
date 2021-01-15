@@ -9,3 +9,4 @@ A simple note-taking app.
  - [ ] Login screen
  - [ ] Implement datetime
  - [ ] Better icons
+ - [ ] Editor screen with new method
