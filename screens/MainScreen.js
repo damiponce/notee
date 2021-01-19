@@ -124,7 +124,11 @@ class MainScreen extends Component {
             flex: 1,
             backgroundColor: this.props.theme.background,
           }}>
-          <StatusBar barStyle={this.props.theme.statusbar} />
+          <StatusBar
+            translucent
+            backgroundColor={this.props.theme.background}
+            barStyle={this.props.theme.statusbar}
+          />
           <Header height={StatusBar.currentHeight + 44}>
             <Pressable onPress={() => sheetRef.current.snapTo(0)}>
               <Icon

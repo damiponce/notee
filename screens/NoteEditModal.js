@@ -140,8 +140,9 @@ class NoteEditModal extends Component {
               backgroundColor: '#00000000',
               fontSize: 17,
               color: this.props.theme.label,
+              textAlignVertical: 'top',
             }}
-            multiline="true"
+            multiline={true}
             onChangeText={(textData) => this.setState({textData})}
             onEndEditing={() => this.updateData()}
             value={String(this.state.textData)}
