@@ -3,10 +3,10 @@ A simple note-taking app.
 
 
 # TO-DO
- - [ ] Proper UUID generator
+ - [x] Proper UUID generator
  - [ ] Search function
  - [ ] Sorting function
  - [ ] Login screen
- - [ ] Implement datetime
+ - [x] Implement datetime
  - [ ] Better icons
- - [ ] Editor screen with new method
+ - [x] Editor screen with new method
